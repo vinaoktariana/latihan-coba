@@ -1,0 +1,27 @@
+# latihan-coba
+
+public class Mahasiswa {
+    String nama;
+    int semester;
+    double ipk;
+
+    public String hitungyudisium(){
+        String yudisium;
+        if ((semester<=8) && (ipk>3.5)){
+            yudisium="cumlaude";
+        }else{
+            yudisium="memuaskan";
+        }
+        return yudisium;
+    }
+
+    public static void main(String[]args){
+        Mahasiswa mhs=new Mahasiswa();
+        mhs.nama="vina oktariana";
+        mhs.ipk=3.7;
+        mhs.semester=6;
+
+        mhs.hitungyudisium();
+    }
+
+}
