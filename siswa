@@ -1,0 +1,22 @@
+# latihan-coba
+
+public class Siswa {
+    String nama;
+    int nim;
+
+    private void dapat (int nim){
+        this.nim=nim;
+    }
+    public void setNim(int nim) {
+        this.nim = nim;
+    }
+    public void info(){
+        if (this.nim>=100&this.nim<=200){
+            System.out.println("saya mahasiswa ITERA");
+            System.out.println("nim: " +this.nim);
+            System.out.println("nama: " +this.nama);
+        }else{
+            System.out.println("tidak terdefinisi");
+        }
+    }
+}
