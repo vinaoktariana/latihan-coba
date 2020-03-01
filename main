@@ -1,0 +1,13 @@
+# latihan-coba
+
+public class Main {
+
+    public static void main(String[] args){
+        Siswa IF=new Siswa();
+        IF.nama="pinok";
+        IF.nim=150;
+        IF.info();
+
+
+    }
+}
